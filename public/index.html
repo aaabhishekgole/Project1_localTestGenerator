@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Test Case Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>TestGen <span class="highlight">AI</span></h1>
+            <p>Local LLM Test Case Generator</p>
+        </header>
+
+        <main id="chat-container">
+            <div class="message ai-message">
+                <div class="avatar">🤖</div>
+                <div class="content">
+                    Hello! I'm ready to generate test cases. Please paste your requirement below.
+                </div>
+            </div>
+            <!-- Messages will appear here -->
+        </main>
+
+        <footer>
+            <div class="input-area">
+                <textarea id="user-input" placeholder="Describe your feature... e.g. 'Login page with forgot password'"></textarea>
+                <button id="send-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+            </div>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

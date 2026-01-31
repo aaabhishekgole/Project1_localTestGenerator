@@ -1,0 +1,8 @@
+As a user, I want to be able to reset my password using a "Forgot Password" link on the login page, so that I can regain access to my account if I forget my credentials.
+
+Acceptance Criteria:
+1. The "Forgot Password" link is visible on the login page.
+2. Clicking the link redirects to a password reset page.
+3. The user enters their email address.
+4. If the email exists, a reset link is sent.
+5. If the email does not exist, a generic message is shown (security).
